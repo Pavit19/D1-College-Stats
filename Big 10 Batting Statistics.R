@@ -47,7 +47,7 @@ Big10_Stats <- function(team_id, team_name, min_PA = 50) {
   return(data_clean)
 } 
 
-#Pull stats for Washington. Just need to change team_id and team_name to match and data will get pulled
+# Pull stats for Washington. Just need to change team_id and team_name to match and data will get pulled
 Washington <- Big10_Stats(team_id = 596443, team_name = "Washington") 
 
 # Pull combined Big 10 hitters stats using pmap_dfr for all teams in the look up table
